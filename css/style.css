@@ -1,7 +1,95 @@
-/* ITCS333 A2 starter — implement the design spec from index.html here.
-   See README rubric for the graded checks. Do not use inline styles. */
 
-/* TODO: style #site-header (padding, border-bottom) */
-/* TODO: style .card (padding, border, gap) and .card-grid (display, gap, 3 columns) */
-/* TODO: style form inputs (padding) and a :focus state */
-/* TODO: add a @media (max-width: 700px) query collapsing .card-grid to one column */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #333;
+}
+
+#site-header {
+  padding: 16px;
+  border-bottom: 1px solid #ccc;
+  background-color: #f2f2f2;
+}
+
+.main-nav {
+  display: flex;
+  gap: 16px;
+}
+
+.main-nav a {
+  color: #333;
+  text-decoration: none;
+}
+
+main {
+  padding: 16px;
+}
+
+.content-section {
+  margin-bottom: 24px;
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.schedule-table th,
+.schedule-table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.schedule-table th {
+  background-color: #eee;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.card {
+  padding: 12px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.weight {
+  font-weight: bold;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 400px;
+}
+
+.register-form input {
+  padding: 6px;
+  border: 1px solid #999;
+}
+
+.register-form input:focus {
+  outline: 2px solid #2563eb;
+}
+
+.btn-primary {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.site-footer {
+  padding: 16px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+@media (max-width: 700px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+}
