@@ -2,12 +2,12 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  color: #333;
+  color: #871111;
 }
 
 #site-header {
   padding: 16px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #325f4e;
   background-color: #f2f2f2;
 }
 
@@ -17,7 +17,7 @@ body {
 }
 
 .main-nav a {
-  color: #333;
+  color: blue;
   text-decoration: none;
 }
 
@@ -37,12 +37,12 @@ main {
 .schedule-table th,
 .schedule-table td {
   padding: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid #03041d;
   text-align: left;
 }
 
 .schedule-table th {
-  background-color: #eee;
+  background-color: green;
 }
 
 .card-grid {
@@ -54,7 +54,7 @@ main {
 .card {
   padding: 12px;
   border: 1px solid #ccc;
-  background-color: #fff;
+  background-color: #23badc;
 }
 
 .weight {
@@ -70,11 +70,11 @@ main {
 
 .register-form input {
   padding: 6px;
-  border: 1px solid #999;
+  border: 1px solid #72d8f4;
 }
 
 .register-form input:focus {
-  outline: 2px solid #2563eb;
+  outline: 2px solid #880a8c;
 }
 
 .btn-primary {
@@ -85,7 +85,7 @@ main {
 .site-footer {
   padding: 16px;
   text-align: center;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid purple;
 }
 
 @media (max-width: 700px) {
